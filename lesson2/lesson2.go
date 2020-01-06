@@ -2,15 +2,18 @@ package main
 
 import "fmt"
 
-func main() {
+func incrementGenerator() func() int {
 	x := 0
-	increment := func() int {
+	return func() int {
 		x++
 		return x
 	}
+}
 
-	fmt.Println(increment())
-	fmt.Println(increment())
-	fmt.Println(increment())
+func main() {
+	cunter := incrementGenerator()
+	fmt.Println(cunter())
+	fmt.Println(cunter())
+	fmt.Println(cunter())
 
 }
