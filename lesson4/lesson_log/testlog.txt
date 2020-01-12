@@ -1,0 +1,2 @@
+2020/01/13 01:14:04 lesson_log.go:23: Exit open gagagaa: The system cannot find the file specified.
+2020/01/13 01:14:28 C:/Users/User/go/src/gogogo/lesson4/lesson_log/lesson_log.go:23: Exit open gagagaa: The system cannot find the file specified.
